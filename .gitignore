@@ -1,0 +1,14 @@
+# npm
+npm-debug.log*
+node_modules
+
+# dist
+dist
+app
+
+# temporary files
+.gulp-cache
+*.swp
+
+# os x
+.DS_Store
