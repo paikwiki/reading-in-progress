@@ -103,7 +103,7 @@ gulp.task('babel', () => {
 });
 
 gulp.task('webpack', () => {
-  return gulp.src('src/js/main.js')
+  return gulp.src('src/js/init.js')
     .pipe(webpack(webpackConfig))
     .pipe(gulp.dest('dist/js'));
 });

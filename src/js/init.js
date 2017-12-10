@@ -1,6 +1,7 @@
-import Dog from './Dog';
+/* eslint no-unused-vars: 0 */
+import React from 'react';
+import { render } from 'react-dom';
 
-let ddolmang = new Dog('ddolmang');
-console.log(ddolmang.isWhat());
+import Book from './Book';
 
-console.log('bundle.js is runing for you~😘');
+render(<Book />, document.querySelector('#app'));
