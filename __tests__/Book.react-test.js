@@ -22,9 +22,9 @@ const testItem = {
 const component = shallow(<Book item={ testItem }/>);
 
 test('Book has a BookCover component', () => {
-  expect(component.contains(<BookCover />)).toEqual(true);
+  expect(component.find(BookCover).length).toEqual(1);
 });
 
 test('Book has a BookInfo component', () => {
-  expect(component.contains(<BookInfo />)).toEqual(true);
+  expect(component.find(BookInfo).length).toEqual(1);
 });
